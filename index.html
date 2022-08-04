@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -15,6 +19,69 @@
         </div>
 
         <div class="main-content">
+
+            <div class="top-section">
+                <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Necessitatibus, commodi!</p>
+                <p>Sign up now to get started.</p>
+                <p>You know you want to.</p>
+            </div>
+
+            <div class="middle-section">
+                <p>Contact Details</p>
+                <div class="form-container">
+                    <div class="left-form">
+                        <form>
+                            <div>
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" name="firstName" id="firstName">
+                            </div>
+                            <div>
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" name="lastName" id="lastName">
+                            </div>
+                            <div>
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="right-form">
+                        <form>
+                            <div>
+                                <label for="phoneNumber">PHONE NUMBER</label>
+                                <input type="text" name="phoneNumber" id="phoneNumber">
+                            </div>
+                            <div>
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password">
+                            </div>
+                            <div>
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input type="text" name="confirmPassword" id="confirmPassword">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bottom-section">
+                <button type="submit">Create Account</button>
+            </div>
+
+            <footer class='footer'>
+                <p>
+                Copyright ©
+                <script>
+                  document.write(new Date().getFullYear())
+                </script>
+                daramaciej
+                </p>
+                <a href="https://github.com/daramaciej" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </footer>
         </div>
 
     </div>
