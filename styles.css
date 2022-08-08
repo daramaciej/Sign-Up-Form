@@ -1,27 +1,25 @@
-:root {
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     background: #f6f6f6;
 }
 
-
-
-body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .container {
+    min-height: 100vh;
     display: flex;
-
+   
 }
 
 .image-content {
-    width: 40vw;
     height: 100vh;
-    background-image: url(/space.jpg);
+    background-image: url(/space2.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40vw;
 }
 
 .banner {
@@ -35,27 +33,23 @@ body {
 
 
 .main-content {
+    width: 60vw;
     display: flex;
     flex-direction: column;
-    flex: auto;
-    position: relative;
-   
 }
 
 .top-section {
-    font-size: 1.2rem;
-    padding: 40px 40px;
+    padding: 0px 40px;
+}
+
+.top-section  p {
+    font-size: 1.4rem;
+    word-break:break-all;
 }
 
 .middle-section {
     padding: 10px 40px;
-    background-color: white;
-
-}
-
-.form-container {
-    display: flex;
-    gap: 75px;
+    background-color: #ffffff;
 }
 
 label {
@@ -64,18 +58,17 @@ label {
 
 input {
     display: block;
-    
 }
 
 .middle-section > p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 0;
 }
 
+.middle-section,
 .bottom-section {
-   padding: 20px 40px;
-   font-size: 0.8rem;
-  
+    padding: 20px 40px;
+    font-size: 0.3;
 }
 
 button {
@@ -83,7 +76,17 @@ button {
     padding: 10px 50px;
     border: 2px solid #000000;
     border-radius: 5px;
+    cursor:pointer;
     
+}
+
+.form-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 600px;
 }
 
 a {
@@ -99,9 +102,9 @@ a {
     justify-content: center;
     gap: 10px;
     width: 100%;
-  }
+}
 
 .fa-github {
     color: #000000;
     font-size: 24px;
-  }
+}

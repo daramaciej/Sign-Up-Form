@@ -13,7 +13,6 @@
 </head>
 <body>
     <div class="container">
-
         <div class="image-content">
             <div class="banner">
                 <img src="/odin.png" alt="Odin Image">
@@ -21,71 +20,61 @@
         </div>
 
         <div class="main-content">
-
             <div class="top-section">
                 <p>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                 Necessitatibus, commodi!</p>
                 <p>Sign up now to get started.</p>
                 <p>You know you want to.</p>
             </div>
-
             <div class="middle-section">
-                <p>Contact Details</p>
-                <div class="form-container">
-                    <div class="left-form">
-                        <form>
-                            <div>
-                                <label for="firstName">FIRST NAME</label>
-                                <input type="text" name="firstName" id="firstName" size="30">
-                            </div>
-                            <div>
-                                <label for="email">EMAIL</label>
-                                <input type="email" name="email" id="email" size="30">
-                            </div>
-                            <div>
-                                <label for="password">PASSWORD</label>
-                                <input type="password" name="password" id="password" size="30">
-                            </div>
-                        </form>
+                
+                <form action="#">
+                    <p>Contact Details </p>
+                    <div class="form-container">
+                        <div>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" name="firstName" id="firstName" size="30" required>
+                        </div>
+                        <div>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" name="lastName" id="lastName" size="30" required>
+                        </div>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" size="30" required>
+                        </div>
+                        <div>
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="text" name="phoneNumber" id="phoneNumber" size="30" required>
+                        </div>
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" size="30" required>
+                        </div>
+                        <div>
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="text" name="confirmPassword" id="confirmPassword" size="30" required>
+                        </div>
                     </div>
-
-                    <div class="right-form">
-                        <form>
-                            <div>
-                                <label for="lastName">LAST NAME</label>
-                                <input type="text" name="lastName" id="lastName" size="30">
-                            </div>
-                            <div>
-                                <label for="phoneNumber">PHONE NUMBER</label>
-                                <input type="text" name="phoneNumber" id="phoneNumber" size="30">
-                            </div>
-
-                            <div>
-                                <label for="confirmPassword">CONFIRM PASSWORD</label>
-                                <input type="text" name="confirmPassword" id="confirmPassword" size="30">
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                    <div class="bottom-section"></div>
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </form>
             </div>
             
-            <div class="bottom-section">
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="">Log in</a></p>
             </div>
-
             <footer class='footer'>
                 <p>
                 Copyright ©
                 <script>
-                  document.write(new Date().getFullYear())
+                    document.write(new Date().getFullYear());
                 </script>
                 daramaciej
                 </p>
                 <a href="https://github.com/daramaciej" target="_blank">
-                  <i class="fab fa-github"></i>
+                    <i class="fab fa-github"></i>
                 </a>
-              </footer>
+            </footer>
         </div>
     </div>
     
