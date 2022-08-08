@@ -10,12 +10,11 @@ body {
 .container {
     min-height: 100vh;
     display: flex;
-   
 }
 
 .image-content {
     height: 100vh;
-    background-image: url(space2.jpg);
+    background-image: url(/space2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
